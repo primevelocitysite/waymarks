@@ -1,10 +1,12 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Toaster } from '@/components/ui/toaster';
+import { PwaRegister } from '@/components/pwa-register';
 
 export const metadata: Metadata = {
   title: 'Waymark — Travel Reimagined',
   description: 'Book flights, hotels, homes, cars, and yachts. Your journey starts here.',
+  manifest: '/manifest.webmanifest',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
@@ -33,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-sans antialiased">
+        <PwaRegister />
         {children}
         <Toaster />
       </body>

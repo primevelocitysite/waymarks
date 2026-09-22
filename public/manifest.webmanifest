@@ -1,0 +1,20 @@
+{
+  "name": "Waymark — Travel Reimagined",
+  "short_name": "Waymark",
+  "description": "Book flights, hotels, homes, cars, and yachts. Your journey starts here.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#1B3A5C",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/waymark-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
